@@ -1,0 +1,113 @@
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+
+#container{
+	display:none;
+}
+   
+.hero-unit h1 {
+	margin-bottom: 20px;
+}
+   
+.product.span4 h2{
+	height:40px;
+	overflow:hidden;
+}
+
+.product.span4 p.imgbox{
+	width:98%;
+	overflow:hidden;
+	height:150px;
+	line-height:150px;
+	vertical-align:middle;
+	border:1px solid transparent;
+	
+}
+
+.product.span4 p.imgbox:hover,
+.product.span4 p.imgbox.hover{
+	border:1px solid #006dcc;
+}
+
+.product.span4 p.imgbox img{
+	max-width:100%; 
+}
+
+.hero-unit p.price,
+.product.span4 p.price{
+	font-weight:bold;
+	color:#19A347;
+}
+
+.hero-unit{
+	overflow:hidden;
+}
+
+.hero-unit p.img{
+	text-align:center;
+}
+
+li.cart.dropdown{
+	/*display:none;*/
+}
+
+#cart-dropdown img{
+	width:20px;
+}
+
+#largeCart {
+	padding:20px 10px;
+}
+
+#largeCart table{
+	width:100%;
+	border:1px solid #ccc;
+	font-size:0.7em;
+}
+
+#largeCart table th{
+	background:#ccc;
+}
+
+#largeCart table th,
+#largeCart table td{
+	text-align:left;
+	padding:8px 16px;
+}
+
+#largeCart table th.subtotal,
+#largeCart table th.qty{
+	text-align:right;
+}
+
+#largeCart table td.img{
+	width:10%;
+}
+#largeCart table td.img img{
+	width:100%;
+}
+#largeCart table td.name{
+	width:50%;
+}
+#largeCart table td.cost{
+	width:10%;
+	text-align:right;
+}
+#largeCart table td.qty{
+	width:5%;
+}
+#largeCart table td.qty input{
+	width:100%;
+}
+
+#largeCart table td.edit{
+	width:10%;
+}
+
+#largeCart .totalbox{
+	float:right;
+	text-align:right;
+}
+
+
