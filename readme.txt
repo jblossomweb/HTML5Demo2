@@ -1,5 +1,5 @@
 This is a simple proof of concept.
-Using CodeIgniter and Bootstrap in context of E-Commerce, display an adjustable shopping cart.
+Using MVC and Bootstrap in context of E-Commerce, display an adjustable shopping cart.
 
 To Install:
 Deploy code on webserver, run SQL. 
